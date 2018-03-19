@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
@@ -432,10 +432,15 @@ header.masthead {
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
+  .team-member a.portfolio-link {
+    color: transparent; }
   .team-member img {
     width: 225px;
     height: 225px;
-    border: 7px solid #fff; }
+    border-style: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    background: transparent !important; }
   .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
