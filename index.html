@@ -315,9 +315,11 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/marks-square.jpg" alt="">
+              <a class="portfolio-link" data-toggle="modal" href="#marks-bio">
+                <img class="mx-auto rounded-circle" src="img/team/marks-square.jpg" alt="">
+              </a>
               <h4>Mark Soileau</h4>
-              <p class="text-muted">Lead Architect</p>
+              <p class="text-muted">Founder and <br>Chief Architect</p>
             </div>
           </div>
           <div class="col-sm-4">
@@ -792,6 +794,37 @@
       </div>
     </div>
 
+    <div class="portfolio-modal modal fade" id="marks-bio" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2 class="text-uppercase">Mark Soileau</h2>
+                  <p class="item-intro text-muted">Founder and Chief Architect</p>
+                  <img class="img-fluid d-block mx-auto rounded-circle" src="img/team/marks-square.jpg" alt="" style="max-width: 225px;">
+
+                  <p>Mark has been developing software in an entrepreneurial context for more than 35 years.  In the early 90s he helped develop one of the healthcare industry’s first data warehouses and decision support dashboards for Computer Sciences Corporation’s Healthcare division.   A unique approach to aggregation and presentation of analytics data, sourced from disparate enterprise systems, has evolved and emerged.  Mark has designed and developed a diverse spectrum of technologies from open source application development frameworks and special-purpose operating systems to model-driven architecture productivity tools.</p>
+                  <p>Most recently, Mark has worked in business and technology development, mostly in partnership with healthcare technology startups, to turn innovative ideas into analytics systems that improve both quality of outcomes as well as efficiencies around resource planning and utilization.  His most recent focus in open-source development frameworks is the Cubifier OLAP aggregation engine and toolkit.</p>
+                  <p>Mark leads the Airlift Group, a small team of highly experienced, tactical and innovative partners who have each worked in the software industry for decades.  The team has extensive experience collaborating cohesively and highly successfully since as far back as 1991.</p>
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
